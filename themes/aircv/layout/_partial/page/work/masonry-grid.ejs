@@ -1,0 +1,50 @@
+<div class="masonry-grid row row-space-2">
+
+    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+  
+    <% theme.work.items.forEach(item => { %>
+      <div class="masonry-grid-item <%= item.grid_class %>">
+        <!-- Work -->
+        <div class="work work-popup-trigger">
+            <div class="work-overlay">
+                <img class="full-width img-responsive" src="<%= item.image %>" alt="Portfolio Image">
+                <div class="work-overlay-label">
+                  <p> <%= item.title %></p>
+                </div>
+            </div>
+            <div class="work-popup-overlay">
+                <div class="work-popup-content">
+                    <a href="javascript:void(0);" class="work-popup-close"><%= item.hide_text %></a>
+                    <div class="margin-b-30">
+                        <h3 class="margin-b-5"><%= item.title %></h3>
+                        <span><%- item.subtitle %></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                            <div class="margin-t-10 sm-margin-t-0">
+                              <%- item.description %>
+                              <% if(item.cta) {%>
+                                <p>
+                                  <b><a href="<%= item.href %>"> <%= item.cta %> </a></b>
+                                </p>
+                              <% } %>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-b-5">
+                            <p><h5>Development Tools</h5></p>
+                          </div>
+                            <div class="margin-t-10 sm-margin-t-0">
+                              <% item.tools.forEach( tool => { %>
+                                <p class="margin-b-5"><%- tool.text %></p>
+                              <% }) %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Work -->
+    </div>
+    <% }); %>
+  </div>
