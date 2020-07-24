@@ -40,6 +40,7 @@ var Layout = function () {
         // jQuery for page scrolling feature - requires jQuery Easing plugin
         $('.js_nav-item a').bind('click', function(event) {
             if ($(this).attr('href').startsWith("#")) {
+                console.log($(this).attr('href'));
                 var $position = $($(this).attr('href')).offset().top;
                 $('html, body').stop().animate({
                     scrollTop: $position - $offset

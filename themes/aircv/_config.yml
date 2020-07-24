@@ -2,15 +2,16 @@
 menu:
   Home: "#body"
   About: "#about"
-  Experience: "#experience"
+  Product: "#product"
   Work: "#work"
   Contact: "#contact"
 
-first_name: Alex
-last_name: Teseira
+first_name: KeRui
+last_name:
 job_title:
-- Web Designer
-- Front-end Developer
+- KeRui Instruments Supports On Demand Customization, Good Equipment Originates from Higher Pursuit
+- Looking forward to your cooperation
+
 
 social:
   icon-social-github: https://github.com/rayspock
@@ -22,8 +23,8 @@ social:
 # Miscellaneous
 favicon: /favicon.png
 header_logo: img/logo.png
-header_logo_dark: img/logo-dark.png
-footer_logo: img/logo-dark.png
+header_logo_dark: img/logo.png
+footer_logo: img/logo.png
 slider: img/1920x1080/01.jpg
 open_graph: 
 
@@ -31,9 +32,8 @@ open_graph:
 about:
   title: "Intro"
   subtitle: "What I am all about."
-  description: "I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  description: "GongYi KeRui Instrument co., Ltd. is a scientific and technological enterprise integrating research, development production and sales of laboratory equipment, teaching testing equipment and scientific research and pharmaceutical facilities.after many years and, state key laboratory of colleges and universities, new drug development unit cooperation, research and development production of a variety of experimental instruments and equipment .
+                Our company will rely on strong technology and work with friends from all walks of life, continue to pursue the professionalism of \"profession, stability, innovation, efficiency and integrity\", put the quality of products first, continuously improve our marketing network, and provide users with perfect pre-sales and sales. And after-sales service, one-year product warranty, life-long maintenance, with high-quality products ."
   years_exp: 6
   skills:
     - name: PHP
@@ -51,34 +51,34 @@ contact:
   subtitle: Hire me.
   items:
     - title: Location
-      content: Brookyln, New York
+      content: GongYi,Zhengzhou,Henan Province,China
       href: "#"
     - title: Phone
-      content: +77 234 548 00 00
+      content: +86 15639088016
       href: "#"
     - title: Email
-      content: alex.teseira@gmail.com
+      content: snowgraceful@gmail.com
       href: "#"
     - title: Web
-      content: alex.teseira.com
+      content: https://snowgrace.github.io/
       href: "#"
 
-# Experience
-exp:
-  title: Experience
-  subtitle: Batman would be jealous.
+# Products
+product:
+  title: Products
+  subtitle: Good equipment originates from higher pursuit.
   items:
-    - title: HTML5/CSS3
+    - title: Rotary evaporator
       content: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
       href: "#"
       icon: "icon-chemistry"
       featured: false
-    - title: Photoshop
+    - title: Glass reactor
       content: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
       href: "#"
       icon: "color-white icon-screen-tablet"
       featured: true
-    - title: Front-end
+    - title: Circulating water vacuum pump
       content: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
       href: "#"
       icon: "icon-badge"
